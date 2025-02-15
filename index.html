@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div style="    margin: auto;
+    margin-top: 74px;
+    font-size: 24px;
+    border: solid;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;padding-top: 23px;
+    padding-bottom: 20px;
+    background-color: #F4FFC3;">
+    <form  id="form">
+        <h1>Registeration form</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" >
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="text" id="age" placeholder="Enter your age">
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <input type="text" id="pass" placeholder="Enter your password">
+        <br>
+        <br>
+        <label for="confirm pass">Confirm password</label>
+        <input type="text" id="cpass" placeholder="confirm password">
+        <br>
+        <br>
+        <button type="submit" id="sbutton" style="    height: 38px;
+        border-radius: 10px;
+        width: 50%;
+        ">Submit</button>
+    </form><div style="margin-top: 105px;">
+    <div class="image-container">
+        <img id="selected-image" src="" alt="Selected Image" />
+    </div>
+    <input type="file" id="image-input" accept="image/*" style="display: none;">
+    <button type="button" id="select-image-btn" class="btn-rose">Upload Image</button>
+</div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
