@@ -27,6 +27,10 @@ Sbutton.addEventListener('click',function(){
         alert('cpass cannot be null');
         return false;
     }
+   if(CPass.value!=Pass.value){
+        alert('CPass can not be match with pass.');
+        return false;
+    }
 })
 
 document.getElementById('select-image-btn').addEventListener('click', function() {
