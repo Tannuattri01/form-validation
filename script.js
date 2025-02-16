@@ -27,8 +27,8 @@ Sbutton.addEventListener('click',function(){
         alert('cpass cannot be null');
         return false;
     }
-   if(CPass.value!=Pass.value){
-        alert('CPass can not be match with pass.');
+   if(cpass.value!=Pass.value){
+        alert('confirm pass can not be match with pass.');
         return false;
     }
 })
